@@ -1,0 +1,92 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+	border: 0px;
+}
+table th {
+	border: 0px;
+}
+table td {
+	border: 1px solid #DCDCDC;
+	width: 50px;
+	height: 50px;
+}
+.bottom_bold td ,.bottom_bold th {
+	border-bottom: 2px solid black;
+}
+.bottom_bold:first-child th {
+	border-right: 0px;
+}
+th:first-child {
+	border-bottom: 0px;
+}
+th:nth-child(1) ,td:nth-child(11) {
+	border-right: 2px solid black;
+}
+th {
+	height: 30px;
+	width: 30px;
+	font-family: 微软雅黑;
+	font-weight: normal;
+	font-size: 20px;
+}
+.input {
+	width: 500px;
+	position: relative;
+	left: 50px;
+	top: 50px
+}
+.control_button {
+	width: 500px;
+	position: relative;
+	left: 50px;
+	top: 100px
+}
+input:first-child {
+	width: 200px;
+	height: 30px;
+}
+input:nth-child(2) {
+	width: 80px;
+	height: 34px;
+	position: relative;
+	left: -8px;
+	background-color: #3D59AB;
+	border: 0px;
+	font-family: 微软雅黑;
+	color: white;
+}
+button {
+	width: 80px;
+	height: 34px;
+	background-color: #3D59AB;
+	border: 0px;
+	font-family: 微软雅黑;
+	color: white;	
+}
+.active {
+	background-color: red;
+}
+.top div {
+	width: 50px;
+	height: 35px;
+	border-top: 15px solid blue;
+}
+.bottom div {
+	width: 50px;
+	height: 35px;
+	border-bottom: 15px solid blue;
+}
+.right div {
+	width: 35px;
+	height: 50px;
+	border-right: 15px solid blue;
+}
+.left div {
+	width: 35px;
+	height: 50px;
+	border-left: 15px solid blue;
+}
